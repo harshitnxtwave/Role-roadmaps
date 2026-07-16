@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,15 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
   <!-- Lucide Icons -->
   <script src="https://unpkg.com/lucide@latest"></script>
   <!-- Application CSS -->
   <link rel="stylesheet" href="index.css?v=52">
 </head>
+
 <body>
   <div class="portal-container">
     <!-- Sidebar Navigation -->
@@ -20,16 +24,20 @@
       <div class="sidebar-brand">
         <div class="logo-wrapper">
           <svg class="logo-svg" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 28C18.6274 28 24 22.6274 24 16C24 9.37258 18.6274 4 12 4C5.37258 4 0 9.37258 0 16C0 22.6274 5.37258 28 12 28Z" fill="url(#logo-grad-1)" fill-opacity="0.8"/>
-            <path d="M28 36C34.6274 36 40 30.6274 40 24C40 17.3726 34.6274 12 28 12C21.3726 12 16 17.3726 16 24C16 30.6274 21.3726 36 28 36Z" fill="url(#logo-grad-2)" fill-opacity="0.8"/>
+            <path
+              d="M12 28C18.6274 28 24 22.6274 24 16C24 9.37258 18.6274 4 12 4C5.37258 4 0 9.37258 0 16C0 22.6274 5.37258 28 12 28Z"
+              fill="url(#logo-grad-1)" fill-opacity="0.8" />
+            <path
+              d="M28 36C34.6274 36 40 30.6274 40 24C40 17.3726 34.6274 12 28 12C21.3726 12 16 17.3726 16 24C16 30.6274 21.3726 36 28 36Z"
+              fill="url(#logo-grad-2)" fill-opacity="0.8" />
             <defs>
               <linearGradient id="logo-grad-1" x1="0" y1="4" x2="24" y2="28" gradientUnits="userSpaceOnUse">
-                <stop stop-color="#0967D2"/>
-                <stop offset="1" stop-color="#00F2FE"/>
+                <stop stop-color="#0967D2" />
+                <stop offset="1" stop-color="#00F2FE" />
               </linearGradient>
               <linearGradient id="logo-grad-2" x1="16" y1="12" x2="40" y2="36" gradientUnits="userSpaceOnUse">
-                <stop stop-color="#4F46E5"/>
-                <stop offset="1" stop-color="#EC4899"/>
+                <stop stop-color="#4F46E5" />
+                <stop offset="1" stop-color="#EC4899" />
               </linearGradient>
             </defs>
           </svg>
@@ -53,7 +61,8 @@
         <a href="#" class="nav-item"><i data-lucide="briefcase"></i> Placement Prep</a>
         <a href="#" class="nav-item"><i data-lucide="help-circle"></i> Question Bank</a>
         <a href="#" class="nav-item"><i data-lucide="edit-3"></i> My Notebook</a>
-        <a href="#" class="nav-item" id="sidebar-jobs-board-link"><i data-lucide="layout-grid"></i> Jobs Board <span class="badge badge-alert" id="sidebar-jobs-badge" style="display:none;">1</span></a>
+        <a href="#" class="nav-item" id="sidebar-jobs-board-link"><i data-lucide="layout-grid"></i> Jobs Board <span
+            class="badge badge-alert" id="sidebar-jobs-badge" style="display:none;">1</span></a>
         <a href="#" class="nav-item"><i data-lucide="terminal"></i> Playground</a>
         <a href="#" class="nav-item"><i data-lucide="code"></i> Code Snippets</a>
       </nav>
@@ -62,12 +71,12 @@
     <!-- Main Content Panel -->
     <main class="main-content">
       <!-- Top Navbar -->
-      <header class="top-navbar">
+      <header class="top-navbar">ß
         <div class="navbar-left">
-          <h1 class="page-title">My Journey</h1>
+          <h1 class="page-title">My Workspace</h1>
           <button class="info-btn" title="Learn about your roadmap option"><i data-lucide="help-circle"></i></button>
         </div>
-        
+
         <div class="navbar-right">
           <!-- Search Box -->
           <div class="search-box">
@@ -110,23 +119,28 @@
   </div>
 
   <!-- DIALOG MODALS -->
-  
+
   <!-- 1. Role Overview & Details Modal -->
   <dialog id="role-overview-dialog" class="custom-dialog role-overview-dialog-redesigned">
-    <button class="dialog-close-btn top-right-close" onclick="document.getElementById('role-overview-dialog').close()"><i data-lucide="x"></i></button>
+    <button class="dialog-close-btn top-right-close"
+      onclick="document.getElementById('role-overview-dialog').close()"><i data-lucide="x"></i></button>
     <div class="dialog-body">
       <!-- Top Section -->
       <div class="overview-top-section">
         <div class="overview-top-left">
           <span class="career-track-label">CAREER TRACK</span>
           <h2 id="overview-role-title">Data Analyst</h2>
-          <p class="role-short-description" id="overview-role-desc">Turn raw data into actionable insights. Master data visualization, SQL, and analytical thinking to drive business decisions.</p>
-          <p class="role-includes-skills" id="overview-role-includes-skills">Includes <strong>SQL, Python, Tableau</strong>, and 3 more skills.</p>
-          
+          <p class="role-short-description" id="overview-role-desc">Turn raw data into actionable insights. Master data
+            visualization, SQL, and analytical thinking to drive business decisions.</p>
+          <p class="role-includes-skills" id="overview-role-includes-skills">Includes <strong>SQL, Python,
+              Tableau</strong>, and 3 more skills.</p>
+
           <div class="overview-action-row">
-            <button class="btn btn-primary btn-start-track" id="overview-enroll-btn">Start This Track <i data-lucide="arrow-right"></i></button>
+            <button class="btn btn-primary btn-start-track" id="overview-enroll-btn">Start This Track <i
+                data-lucide="arrow-right"></i></button>
             <span class="learners-enrolled">
-              <i data-lucide="users" style="width:16px;height:16px;margin-right:6px;display:inline-block;vertical-align:middle;"></i>
+              <i data-lucide="users"
+                style="width:16px;height:16px;margin-right:6px;display:inline-block;vertical-align:middle;"></i>
               <span id="overview-enrolled-count">16.9k</span> learners enrolled
             </span>
           </div>
@@ -135,7 +149,8 @@
           <div class="track-includes-box">
             <h4>This career track includes</h4>
             <ul>
-              <li><i data-lucide="book-open"></i> <span id="overview-sidebar-courses-count">28</span> structured courses</li>
+              <li><i data-lucide="book-open"></i> <span id="overview-sidebar-courses-count">28</span> structured courses
+              </li>
               <li><i data-lucide="check-square"></i> Assessments to test your skills</li>
               <li><i data-lucide="award"></i> A certificate of completion</li>
               <li><i data-lucide="briefcase"></i> Job board access on completion</li>
@@ -180,8 +195,10 @@
       <div class="overview-bottom-section">
         <div class="bottom-left-col">
           <h3>About this career track</h3>
-          <p id="overview-role-about-text">Turn raw data into decisions that drive business. This track teaches SQL, Python for data analysis, visualisation with Tableau and Power BI, and statistical thinking — skills every data-driven company needs to stay competitive.</p>
-          
+          <p id="overview-role-about-text">Turn raw data into decisions that drive business. This track teaches SQL,
+            Python for data analysis, visualisation with Tableau and Power BI, and statistical thinking — skills every
+            data-driven company needs to stay competitive.</p>
+
           <h5 class="sub-caption-label">TOP HIRING COMPANIES</h5>
           <div class="overview-companies-pills" id="overview-role-companies">
             <!-- Populated dynamically -->
@@ -200,7 +217,7 @@
         </div>
       </div>
     </div>
-    
+
     <!-- Sticky footer matching bottom bar -->
     <div class="dialog-footer sticky-footer-bar">
       <div class="footer-meta-left">
@@ -210,7 +227,8 @@
         <span class="dot-separator">•</span>
         <span id="footer-metric-courses">28 courses</span>
       </div>
-      <button class="btn btn-primary btn-start-track" id="overview-enroll-btn-footer">Start This Track <i data-lucide="arrow-right"></i></button>
+      <button class="btn btn-primary btn-start-track" id="overview-enroll-btn-footer">Start This Track <i
+          data-lucide="arrow-right"></i></button>
     </div>
   </dialog>
 
@@ -218,7 +236,8 @@
   <dialog id="role-switch-dialog" class="custom-dialog switch-dialog">
     <div class="dialog-header">
       <h2>Switch Learning Roadmap</h2>
-      <button class="dialog-close-btn" onclick="document.getElementById('role-switch-dialog').close()"><i data-lucide="x"></i></button>
+      <button class="dialog-close-btn" onclick="document.getElementById('role-switch-dialog').close()"><i
+          data-lucide="x"></i></button>
     </div>
     <div class="dialog-body">
       <!-- Warning Alert -->
@@ -226,11 +245,13 @@
         <i data-lucide="info"></i>
         <div>
           <strong>Your progress will be saved!</strong>
-          <p>Switching roadmaps will not delete your course progress or assessment history in your current role. You can switch back at any time.</p>
+          <p>Switching roadmaps will not delete your course progress or assessment history in your current role. You can
+            switch back at any time.</p>
         </div>
       </div>
 
-      <p class="switch-intro-text">You are about to switch your active learning path. Let's compare your progress and the new commitment:</p>
+      <p class="switch-intro-text">You are about to switch your active learning path. Let's compare your progress and
+        the new commitment:</p>
 
       <div class="comparison-grid">
         <!-- Current Role -->
@@ -282,13 +303,16 @@
   </dialog>
 
   <!-- 2.5 Assessment Overview Popover Dialog -->
-  <dialog id="assessment-info-dialog" class="custom-dialog" style="border-radius: 12px; border: 1px solid var(--border); background: #FFFFFF; max-width: 460px; width: 90%; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04); overflow: hidden; padding: 24px; text-align: left; position: relative;">
+  <dialog id="assessment-info-dialog" class="custom-dialog"
+    style="border-radius: 12px; border: 1px solid var(--border); background: #FFFFFF; max-width: 460px; width: 90%; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04); overflow: hidden; padding: 24px; text-align: left; position: relative;">
     <!-- Close Button -->
-    <button onclick="document.getElementById('assessment-info-dialog').close()" style="position: absolute; right: 16px; top: 16px; background: none; border: none; color: #94A3B8; cursor: pointer; padding: 4px; display: flex; align-items: center; justify-content: center; transition: color 0.2s ease; z-index: 10;">
+    <button onclick="document.getElementById('assessment-info-dialog').close()"
+      style="position: absolute; right: 16px; top: 16px; background: none; border: none; color: #94A3B8; cursor: pointer; padding: 4px; display: flex; align-items: center; justify-content: center; transition: color 0.2s ease; z-index: 10;">
       <i data-lucide="x" style="width: 18px; height: 18px;"></i>
     </button>
 
-    <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 0.5px solid #F1F5F9; padding-bottom: 12px; margin-bottom: 16px; flex-wrap: wrap; gap: 8px; padding-right: 24px;">
+    <div
+      style="display: flex; justify-content: space-between; align-items: center; border-bottom: 0.5px solid #F1F5F9; padding-bottom: 12px; margin-bottom: 16px; flex-wrap: wrap; gap: 8px; padding-right: 24px;">
       <div style="display: flex; align-items: center; gap: 8px;">
         <i data-lucide="clipboard-list" style="width: 18px; height: 18px; color: #0C3CFF;"></i>
         <h3 style="margin: 0; font-size: 16px; font-weight: 600; color: #0F172A;">Verified Assessment</h3>
@@ -298,41 +322,64 @@
 
     <!-- Core Introduction -->
     <p style="margin: 0 0 16px 0; font-size: 13px; color: #475569; line-height: 1.5;">
-      Verified assessments gauge your practical knowledge and runtime coding capabilities across your track's skill areas.
+      Verified assessments gauge your practical knowledge and runtime coding capabilities across your track's skill
+      areas.
     </p>
 
     <!-- Info Sections Grid/Stack -->
     <div style="display: flex; flex-direction: column; gap: 16px; margin-bottom: 24px;">
-      
+
       <!-- Section 1: Why take it? -->
       <div style="text-align: left;">
-        <h4 style="margin: 0 0 6px 0; font-size: 12.5px; font-weight: 700; color: #1E293B; text-transform: uppercase; letter-spacing: 0.5px; display: flex; align-items: center; gap: 6px;">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width: 13.5px; height: 13.5px; color: #0C3CFF;"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+        <h4
+          style="margin: 0 0 6px 0; font-size: 12.5px; font-weight: 700; color: #1E293B; text-transform: uppercase; letter-spacing: 0.5px; display: flex; align-items: center; gap: 6px;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+            style="width: 13.5px; height: 13.5px; color: #0C3CFF;">
+            <circle cx="12" cy="12" r="10"></circle>
+            <path d="m9 12 2 2 4-4"></path>
+          </svg>
           Why take the assessment?
         </h4>
-        <ul style="margin: 0; padding-left: 18px; font-size: 12px; color: #475569; display: flex; flex-direction: column; gap: 4px; line-height: 1.45;">
-          <li><strong>Accurate skill benchmarking:</strong> Evaluate your level from Beginner to Expert against strict industry hiring rubrics.</li>
+        <ul
+          style="margin: 0; padding-left: 18px; font-size: 12px; color: #475569; display: flex; flex-direction: column; gap: 4px; line-height: 1.45;">
+          <li><strong>Accurate skill benchmarking:</strong> Evaluate your level from Beginner to Expert against strict
+            industry hiring rubrics.</li>
           <li><strong>Identify development areas:</strong> Pinpoint specific syllabus topics to improve.</li>
         </ul>
       </div>
 
       <!-- Section 2: What happens when you clear it? -->
       <div style="text-align: left;">
-        <h4 style="margin: 0 0 6px 0; font-size: 12.5px; font-weight: 700; color: #1E293B; text-transform: uppercase; letter-spacing: 0.5px; display: flex; align-items: center; gap: 6px;">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width: 13.5px; height: 13.5px; color: #059669;"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M10 14.66V17c0 .55-.45 1-1 1H4v2h16v-2h-5c-.55 0-1-.45-1-1v-2.34"></path><path d="M12 2a5 5 0 0 0-5 5v2h10V7a5 5 0 0 0-5-5z"></path></svg>
+        <h4
+          style="margin: 0 0 6px 0; font-size: 12.5px; font-weight: 700; color: #1E293B; text-transform: uppercase; letter-spacing: 0.5px; display: flex; align-items: center; gap: 6px;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+            style="width: 13.5px; height: 13.5px; color: #059669;">
+            <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
+            <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
+            <path d="M4 22h16"></path>
+            <path d="M10 14.66V17c0 .55-.45 1-1 1H4v2h16v-2h-5c-.55 0-1-.45-1-1v-2.34"></path>
+            <path d="M12 2a5 5 0 0 0-5 5v2h10V7a5 5 0 0 0-5-5z"></path>
+          </svg>
           What happens when you clear it?
         </h4>
-        <ul style="margin: 0; padding-left: 18px; font-size: 12px; color: #475569; display: flex; flex-direction: column; gap: 4px; line-height: 1.45;">
-          <li><strong>Unlock Job Board Apply:</strong> Direct access to browse and submit applications for exclusive internships and roles.</li>
+        <ul
+          style="margin: 0; padding-left: 18px; font-size: 12px; color: #475569; display: flex; flex-direction: column; gap: 4px; line-height: 1.45;">
+          <li><strong>Unlock Job Board Apply:</strong> Direct access to browse and submit applications for exclusive
+            internships and roles.</li>
           <li><strong>Profile badge verification:</strong> Show off earned qualification levels on your resume.</li>
-          <li><strong>Fast-tracked recruiting:</strong> Skip primary technical screening screens with top-tier hiring partners.</li>
+          <li><strong>Fast-tracked recruiting:</strong> Skip primary technical screening screens with top-tier hiring
+            partners.</li>
         </ul>
       </div>
 
     </div>
 
-    <div style="position: relative; display: block; border-top: 0.5px solid #F1F5F9; padding-top: 16px; text-align: right;">
-      <button id="info-assess-launch-btn" class="btn btn-primary" style="padding: 10px 22px; font-size: 13px; background: #0C3CFF; border: none; color: #FFFFFF; font-weight: 600; border-radius: 6px; cursor: pointer; transition: all 0.2s;">
+    <div
+      style="position: relative; display: block; border-top: 0.5px solid #F1F5F9; padding-top: 16px; text-align: right;">
+      <button id="info-assess-launch-btn" class="btn btn-primary"
+        style="padding: 10px 22px; font-size: 13px; background: #0C3CFF; border: none; color: #FFFFFF; font-weight: 600; border-radius: 6px; cursor: pointer; transition: all 0.2s;">
         Take assessment
       </button>
     </div>
@@ -342,7 +389,8 @@
   <dialog id="assessment-dialog" class="custom-dialog assessment-dialog">
     <div class="dialog-header">
       <h2 id="assess-title">Internship Eligibility Assessment</h2>
-      <button class="dialog-close-btn" onclick="document.getElementById('assessment-dialog').close()"><i data-lucide="x"></i></button>
+      <button class="dialog-close-btn" onclick="document.getElementById('assessment-dialog').close()"><i
+          data-lucide="x"></i></button>
     </div>
     <div class="dialog-body">
       <div class="assessment-banner">
@@ -356,25 +404,29 @@
       <div class="assessment-instructions">
         <h5>Test Rules:</h5>
         <ul>
-          <li>You can attempt this assessment directly at any time. Learning courses is encouraged but not mandatory.</li>
+          <li>You can attempt this assessment directly at any time. Learning courses is encouraged but not mandatory.
+          </li>
           <li>Passing score: <strong>75%</strong></li>
-          <li>Clearing this assessment will immediately unlock the <strong id="assess-unlock-target">Internship Job Board</strong>.</li>
+          <li>Clearing this assessment will immediately unlock the <strong id="assess-unlock-target">Internship Job
+              Board</strong>.</li>
         </ul>
       </div>
 
       <div class="simulator-panel">
         <h5>Select Simulated Test Result:</h5>
-        <p class="sim-note">Choose the outcome you'd like to test to see how the dashboard, certifications, and job boards react.</p>
-        
+        <p class="sim-note">Choose the outcome you'd like to test to see how the dashboard, certifications, and job
+          boards react.</p>
+
         <div class="simulator-choices">
           <label class="sim-choice-card passed">
             <input type="radio" name="sim-outcome" value="pass" checked>
             <div class="choice-content">
               <span class="outcome-title"><i data-lucide="check-circle-2"></i> Pass (Simulate 88% Score)</span>
-              <span class="outcome-desc">Unlocks respective job boards & earns skills certificate (for Job Readiness).</span>
+              <span class="outcome-desc">Unlocks respective job boards & earns skills certificate (for Job
+                Readiness).</span>
             </div>
           </label>
-          
+
           <label class="sim-choice-card failed">
             <input type="radio" name="sim-outcome" value="fail">
             <div class="choice-content">
@@ -396,9 +448,11 @@
     <div class="dialog-header">
       <div>
         <h2 id="job-board-title">Internship Job Board</h2>
-        <p class="dialog-subtitle" id="job-board-subtitle">Exclusive placements for verified students in Frontend Developer</p>
+        <p class="dialog-subtitle" id="job-board-subtitle">Exclusive placements for verified students in Frontend
+          Developer</p>
       </div>
-      <button class="dialog-close-btn" onclick="document.getElementById('job-board-dialog').close()"><i data-lucide="x"></i></button>
+      <button class="dialog-close-btn" onclick="document.getElementById('job-board-dialog').close()"><i
+          data-lucide="x"></i></button>
     </div>
     <div class="dialog-body">
       <div class="jobs-filter-row">
@@ -414,7 +468,8 @@
       </div>
     </div>
     <div class="dialog-footer">
-      <button class="btn btn-secondary" onclick="document.getElementById('job-board-dialog').close()">Close Board</button>
+      <button class="btn btn-secondary" onclick="document.getElementById('job-board-dialog').close()">Close
+        Board</button>
     </div>
   </dialog>
 
@@ -425,10 +480,11 @@
         <h2>Verified Skills Credentials</h2>
         <p class="dialog-subtitle">Verify, download, and showcase your professional developer badge</p>
       </div>
-      <button class="dialog-close-btn" onclick="document.getElementById('certificate-dialog').close()"><i data-lucide="x"></i></button>
+      <button class="dialog-close-btn" onclick="document.getElementById('certificate-dialog').close()"><i
+          data-lucide="x"></i></button>
     </div>
     <div class="dialog-body certificate-body">
-      
+
       <!-- Certificate Preview -->
       <div id="cert-modal-preview-wrapper" class="cert-modal-preview-wrapper">
         <!-- Will be populated dynamically in app.js -->
@@ -442,21 +498,24 @@
             <div class="value-icon"><i data-lucide="file-text"></i></div>
             <div class="value-info">
               <h5>Resume & Portfolio Boost</h5>
-              <p>Add the verified credential badge directly to your resume and link it to your personal developer portfolio to prove your programming speed and engineering competence.</p>
+              <p>Add the verified credential badge directly to your resume and link it to your personal developer
+                portfolio to prove your programming speed and engineering competence.</p>
             </div>
           </div>
           <div class="value-item">
             <div class="value-icon"><i data-lucide="linkedin"></i></div>
             <div class="value-info">
               <h5>LinkedIn Optimization</h5>
-              <p>Share to your LinkedIn feed and add it under the "Licenses & Certifications" section to double recruiter search impressions.</p>
+              <p>Share to your LinkedIn feed and add it under the "Licenses & Certifications" section to double
+                recruiter search impressions.</p>
             </div>
           </div>
           <div class="value-item">
             <div class="value-icon"><i data-lucide="award"></i></div>
             <div class="value-info">
               <h5>Hiring Board Acceleration</h5>
-              <p>Unlocks direct shortlists on NextWave hiring boards. Recruiter callback rates increase by up to 3x once certified.</p>
+              <p>Unlocks direct shortlists on NextWave hiring boards. Recruiter callback rates increase by up to 3x once
+                certified.</p>
             </div>
           </div>
         </div>
@@ -466,87 +525,133 @@
       <div class="cert-modal-actions-panel" id="cert-modal-actions-panel">
         <!-- Will be populated dynamically based on lock state -->
       </div>
-      
+
     </div>
   </dialog>
 
   <!-- 6. Skill Area Matrix Modal -->
-    <dialog id="matrix-dialog" class="custom-dialog matrix-modal-content" style="border-radius: 16px; border: 1px solid var(--slate-200); background: #FFFFFF; max-width: 760px; width: 95%; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04); overflow: hidden; padding: 0;">
-    <div style="padding: 20px 24px; border-bottom: 1px solid var(--slate-200); display: flex; justify-content: space-between; align-items: center; background: #FFFFFF;">
-      <h3 style="margin: 0; font-size: 16px; font-weight: 800; color: #0F172A; display: flex; align-items: center; gap: 8px;">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width: 18px; height: 18px; color: var(--primary);"><rect width="7" height="9" x="3" y="3" rx="1"></rect><rect width="7" height="5" x="14" y="3" rx="1"></rect><rect width="7" height="9" x="14" y="12" rx="1"></rect><rect width="7" height="5" x="3" y="16" rx="1"></rect></svg>
+  <dialog id="matrix-dialog" class="custom-dialog matrix-modal-content"
+    style="border-radius: 16px; border: 1px solid var(--slate-200); background: #FFFFFF; max-width: 760px; width: 95%; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04); overflow: hidden; padding: 0;">
+    <div
+      style="padding: 20px 24px; border-bottom: 1px solid var(--slate-200); display: flex; justify-content: space-between; align-items: center; background: #FFFFFF;">
+      <h3
+        style="margin: 0; font-size: 16px; font-weight: 800; color: #0F172A; display: flex; align-items: center; gap: 8px;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+          style="width: 18px; height: 18px; color: var(--primary);">
+          <rect width="7" height="9" x="3" y="3" rx="1"></rect>
+          <rect width="7" height="5" x="14" y="3" rx="1"></rect>
+          <rect width="7" height="9" x="14" y="12" rx="1"></rect>
+          <rect width="7" height="5" x="3" y="16" rx="1"></rect>
+        </svg>
         Skill Area Matrix
       </h3>
-      <button onclick="document.getElementById('matrix-dialog').close()" style="background: none; border: none; color: #94A3B8; cursor: pointer; padding: 4px; display: flex; align-items: center; justify-content: center; transition: color 0.2s ease;">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width: 18px; height: 18px;"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      <button onclick="document.getElementById('matrix-dialog').close()"
+        style="background: none; border: none; color: #94A3B8; cursor: pointer; padding: 4px; display: flex; align-items: center; justify-content: center; transition: color 0.2s ease;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+          style="width: 18px; height: 18px;">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
       </button>
     </div>
-    
-    <div class="dialog-body" style="padding: 24px; text-align: left; max-height: 75vh; overflow-y: auto; display: flex; flex-direction: column; gap: 20px; background: #FFFFFF;">
-      
+
+    <div class="dialog-body"
+      style="padding: 24px; text-align: left; max-height: 75vh; overflow-y: auto; display: flex; flex-direction: column; gap: 20px; background: #FFFFFF;">
+
       <!-- Tabs Navigation -->
       <div style="display: flex; gap: 8px; border-bottom: 1.5px solid var(--slate-100); padding-bottom: 12px;">
-        <button id="matrix-tab-v1" onclick="AppUI.setMatrixTab(1)" class="matrix-tab-btn active">Version 1: Responsibilities & Earning</button>
-        <button id="matrix-tab-v2" onclick="AppUI.setMatrixTab(2)" class="matrix-tab-btn">Version 2: Skill Area Mapping</button>
+        <button id="matrix-tab-v1" onclick="AppUI.setMatrixTab(1)" class="matrix-tab-btn active">Version 1:
+          Responsibilities & Earning</button>
+        <button id="matrix-tab-v2" onclick="AppUI.setMatrixTab(2)" class="matrix-tab-btn">Version 2: Skill Area
+          Mapping</button>
       </div>
 
       <!-- TAB 1 CONTENT PANE (Version 1: Responsibilities & Earning) -->
       <div id="matrix-content-v1" style="display: flex; flex-direction: column; gap: 16px; width: 100%;">
         <p style="margin: 0; font-size: 13.5px; color: #475569; line-height: 1.45;">
-          Each skill area is graded across four levels. The higher you qualify, the stronger the opportunities you unlock.
+          Each skill area is graded across four levels. The higher you qualify, the stronger the opportunities you
+          unlock.
         </p>
 
         <div style="overflow-x: auto; width: 100%; border: 1px solid var(--slate-200); border-radius: 12px;">
           <table style="width: 100%; border-collapse: collapse; text-align: left;">
             <thead>
               <tr style="background: var(--slate-50); border-bottom: 1px solid var(--slate-200);">
-                <th style="padding: 14px 16px; font-size: 11px; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 0.5px; width: 150px;">Level</th>
-                <th style="padding: 14px 16px; font-size: 11px; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 0.5px; width: 280px;">What it Proves</th>
-                <th style="padding: 14px 16px; font-size: 11px; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 0.5px;">Earning Potential</th>
+                <th
+                  style="padding: 14px 16px; font-size: 11px; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 0.5px; width: 150px;">
+                  Level</th>
+                <th
+                  style="padding: 14px 16px; font-size: 11px; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 0.5px; width: 280px;">
+                  What it Proves</th>
+                <th
+                  style="padding: 14px 16px; font-size: 11px; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 0.5px;">
+                  Earning Potential</th>
               </tr>
             </thead>
             <tbody>
               <tr style="border-bottom: 1px solid var(--slate-100);">
                 <td style="padding: 16px;">
-                  <span style="background: var(--brand-50); color: var(--brand-700); border: 0.5px solid var(--brand-200); padding: 4px 12px; border-radius: 6px; font-size: 12px; font-weight: 600; display: inline-block; width: 100px; text-align: center;">Beginner</span>
+                  <span
+                    style="background: var(--brand-50); color: var(--brand-700); border: 0.5px solid var(--brand-200); padding: 4px 12px; border-radius: 6px; font-size: 12px; font-weight: 600; display: inline-block; width: 100px; text-align: center;">Beginner</span>
                 </td>
-                <td style="padding: 16px; font-size: 13.5px; font-weight: 550; color: #1E293B;">Writes correct, working code</td>
+                <td style="padding: 16px; font-size: 13.5px; font-weight: 550; color: #1E293B;">Writes correct, working
+                  code</td>
                 <td style="padding: 16px; vertical-align: middle;">
-                  <div style="height: 8px; background: var(--slate-100); border-radius: 100px; width: 100%; position: relative; min-width: 150px;">
-                    <div style="left: 5%; width: 25%; background: var(--brand-200); height: 100%; border-radius: 100px; position: absolute;"></div>
+                  <div
+                    style="height: 8px; background: var(--slate-100); border-radius: 100px; width: 100%; position: relative; min-width: 150px;">
+                    <div
+                      style="left: 5%; width: 25%; background: var(--brand-200); height: 100%; border-radius: 100px; position: absolute;">
+                    </div>
                   </div>
                 </td>
               </tr>
               <tr style="border-bottom: 1px solid var(--slate-100);">
                 <td style="padding: 16px;">
-                  <span style="background: var(--brand-100); color: var(--brand-800); border: 0.5px solid var(--brand-300); padding: 4px 12px; border-radius: 6px; font-size: 12px; font-weight: 600; display: inline-block; width: 100px; text-align: center;">Intermediate</span>
+                  <span
+                    style="background: var(--brand-100); color: var(--brand-800); border: 0.5px solid var(--brand-300); padding: 4px 12px; border-radius: 6px; font-size: 12px; font-weight: 600; display: inline-block; width: 100px; text-align: center;">Intermediate</span>
                 </td>
-                <td style="padding: 16px; font-size: 13.5px; font-weight: 550; color: #1E293B;">Solves standard problems independently</td>
+                <td style="padding: 16px; font-size: 13.5px; font-weight: 550; color: #1E293B;">Solves standard problems
+                  independently</td>
                 <td style="padding: 16px; vertical-align: middle;">
-                  <div style="height: 8px; background: var(--slate-100); border-radius: 100px; width: 100%; position: relative; min-width: 150px;">
-                    <div style="left: 20%; width: 30%; background: var(--brand-400); height: 100%; border-radius: 100px; position: absolute;"></div>
+                  <div
+                    style="height: 8px; background: var(--slate-100); border-radius: 100px; width: 100%; position: relative; min-width: 150px;">
+                    <div
+                      style="left: 20%; width: 30%; background: var(--brand-400); height: 100%; border-radius: 100px; position: absolute;">
+                    </div>
                   </div>
                 </td>
               </tr>
               <tr style="border-bottom: 1px solid var(--slate-100);">
                 <td style="padding: 16px;">
-                  <span style="background: var(--primary); color: #FFFFFF; padding: 4.5px 12px; border-radius: 6px; font-size: 12px; font-weight: 600; display: inline-block; width: 100px; text-align: center;">Advanced</span>
+                  <span
+                    style="background: var(--primary); color: #FFFFFF; padding: 4.5px 12px; border-radius: 6px; font-size: 12px; font-weight: 600; display: inline-block; width: 100px; text-align: center;">Advanced</span>
                 </td>
-                <td style="padding: 16px; font-size: 13.5px; font-weight: 550; color: #1E293B;">Handles complex, unfamiliar problems</td>
+                <td style="padding: 16px; font-size: 13.5px; font-weight: 550; color: #1E293B;">Handles complex,
+                  unfamiliar problems</td>
                 <td style="padding: 16px; vertical-align: middle;">
-                  <div style="height: 8px; background: var(--slate-100); border-radius: 100px; width: 100%; position: relative; min-width: 150px;">
-                    <div style="left: 45%; width: 35%; background: var(--brand-600); height: 100%; border-radius: 100px; position: absolute;"></div>
+                  <div
+                    style="height: 8px; background: var(--slate-100); border-radius: 100px; width: 100%; position: relative; min-width: 150px;">
+                    <div
+                      style="left: 45%; width: 35%; background: var(--brand-600); height: 100%; border-radius: 100px; position: absolute;">
+                    </div>
                   </div>
                 </td>
               </tr>
               <tr style="border-bottom: none;">
                 <td style="padding: 16px;">
-                  <span style="background: var(--brand-800); color: #FFFFFF; padding: 4.5px 12px; border-radius: 6px; font-size: 12px; font-weight: 600; display: inline-block; width: 100px; text-align: center;">Expert</span>
+                  <span
+                    style="background: var(--brand-800); color: #FFFFFF; padding: 4.5px 12px; border-radius: 6px; font-size: 12px; font-weight: 600; display: inline-block; width: 100px; text-align: center;">Expert</span>
                 </td>
-                <td style="padding: 16px; font-size: 13.5px; font-weight: 550; color: #1E293B;">Sets the technical bar for others</td>
+                <td style="padding: 16px; font-size: 13.5px; font-weight: 550; color: #1E293B;">Sets the technical bar
+                  for others</td>
                 <td style="padding: 16px; vertical-align: middle;">
-                  <div style="height: 8px; background: var(--slate-100); border-radius: 100px; width: 100%; position: relative; min-width: 150px;">
-                    <div style="left: 68%; width: 28%; background: var(--brand-800); height: 100%; border-radius: 100px; position: absolute;"></div>
+                  <div
+                    style="height: 8px; background: var(--slate-100); border-radius: 100px; width: 100%; position: relative; min-width: 150px;">
+                    <div
+                      style="left: 68%; width: 28%; background: var(--brand-800); height: 100%; border-radius: 100px; position: absolute;">
+                    </div>
                   </div>
                 </td>
               </tr>
@@ -554,8 +659,15 @@
           </table>
         </div>
 
-        <div style="display: flex; justify-content: flex-end; align-items: center; font-size: 11.5px; color: #64748B; padding: 4px 4px 0 4px;">
-          <span style="font-weight: 600; display: flex; align-items: center; gap: 4px;">Lower <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width: 12px; height: 12px;"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg> Higher</span>
+        <div
+          style="display: flex; justify-content: flex-end; align-items: center; font-size: 11.5px; color: #64748B; padding: 4px 4px 0 4px;">
+          <span style="font-weight: 600; display: flex; align-items: center; gap: 4px;">Lower <svg
+              xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+              style="width: 12px; height: 12px;">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg> Higher</span>
         </div>
       </div>
 
@@ -566,71 +678,151 @@
         </p>
 
         <!-- Higher Qualification Banner -->
-        <div style="background: var(--brand-50); border: 1px solid var(--brand-200); border-radius: 8px; padding: 10px 14px; display: flex; align-items: center; gap: 8px; color: var(--brand-900); font-weight: 600; font-size: 12.5px;">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width: 16px; height: 16px; color: var(--primary);"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
-          Higher qualification <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width: 12px; height: 12px; margin: 0 2px;"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg> stronger offers
+        <div
+          style="background: var(--brand-50); border: 1px solid var(--brand-200); border-radius: 8px; padding: 10px 14px; display: flex; align-items: center; gap: 8px; color: var(--brand-900); font-weight: 600; font-size: 12.5px;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+            style="width: 16px; height: 16px; color: var(--primary);">
+            <line x1="18" y1="20" x2="18" y2="10"></line>
+            <line x1="12" y1="20" x2="12" y2="4"></line>
+            <line x1="6" y1="20" x2="6" y2="14"></line>
+          </svg>
+          Higher qualification <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+            style="width: 12px; height: 12px; margin: 0 2px;">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg> stronger offers
         </div>
 
         <div style="overflow-x: auto; width: 100%; border: 1px solid var(--slate-200); border-radius: 12px;">
           <table style="width: 100%; border-collapse: collapse; text-align: left;">
             <thead>
               <tr style="background: var(--slate-50); border-bottom: 1px solid var(--slate-200);">
-                <th style="padding: 12px 14px; font-size: 11px; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 0.5px; min-width: 180px;">Skill Area</th>
-                <th style="padding: 12px 14px; font-size: 11px; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 0.5px; text-align: center;">Get Shortlisted</th>
-                <th style="padding: 12px 14px; font-size: 11px; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 0.5px; text-align: center;">Competitive Offers</th>
-                <th style="padding: 12px 14px; font-size: 11px; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 0.5px; text-align: center;">Strong Offers</th>
-                <th style="padding: 12px 14px; font-size: 11px; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 0.5px; text-align: center;">Top-Tier Offers</th>
+                <th
+                  style="padding: 12px 14px; font-size: 11px; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 0.5px; min-width: 180px;">
+                  Skill Area</th>
+                <th
+                  style="padding: 12px 14px; font-size: 11px; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 0.5px; text-align: center;">
+                  Get Shortlisted</th>
+                <th
+                  style="padding: 12px 14px; font-size: 11px; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 0.5px; text-align: center;">
+                  Competitive Offers</th>
+                <th
+                  style="padding: 12px 14px; font-size: 11px; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 0.5px; text-align: center;">
+                  Strong Offers</th>
+                <th
+                  style="padding: 12px 14px; font-size: 11px; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 0.5px; text-align: center;">
+                  Top-Tier Offers</th>
               </tr>
             </thead>
             <tbody>
               <tr style="border-bottom: 1px solid var(--slate-100);">
-                <td style="padding: 12px 14px; font-size: 13px; font-weight: 600; color: #1E293B;">Programming with Problem Solving (DSA)</td>
-                <td style="padding: 12px; text-align: center;"><span style="background: var(--brand-100); color: var(--brand-800); border: 0.5px solid var(--brand-300); padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Intermediate</span></td>
-                <td style="padding: 12px; text-align: center;"><span style="background: var(--primary); color: #FFFFFF; padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Advanced</span></td>
-                <td style="padding: 12px; text-align: center;"><span style="background: var(--brand-800); color: #FFFFFF; padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Expert</span></td>
-                <td style="padding: 12px; text-align: center;"><span style="background: var(--brand-800); color: #FFFFFF; padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Expert</span></td>
+                <td style="padding: 12px 14px; font-size: 13px; font-weight: 600; color: #1E293B;">Programming with
+                  Problem Solving (DSA)</td>
+                <td style="padding: 12px; text-align: center;"><span
+                    style="background: var(--brand-100); color: var(--brand-800); border: 0.5px solid var(--brand-300); padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Intermediate</span>
+                </td>
+                <td style="padding: 12px; text-align: center;"><span
+                    style="background: var(--primary); color: #FFFFFF; padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Advanced</span>
+                </td>
+                <td style="padding: 12px; text-align: center;"><span
+                    style="background: var(--brand-800); color: #FFFFFF; padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Expert</span>
+                </td>
+                <td style="padding: 12px; text-align: center;"><span
+                    style="background: var(--brand-800); color: #FFFFFF; padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Expert</span>
+                </td>
               </tr>
               <tr style="border-bottom: 1px solid var(--slate-100);">
-                <td style="padding: 12px 14px; font-size: 13px; font-weight: 600; color: #1E293B;">Frontend Development</td>
-                <td style="padding: 12px; text-align: center;"><span style="background: var(--brand-100); color: var(--brand-800); border: 0.5px solid var(--brand-300); padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Intermediate</span></td>
-                <td style="padding: 12px; text-align: center;"><span style="background: var(--primary); color: #FFFFFF; padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Advanced</span></td>
-                <td style="padding: 12px; text-align: center;"><span style="background: var(--primary); color: #FFFFFF; padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Advanced</span></td>
-                <td style="padding: 12px; text-align: center;"><span style="background: var(--primary); color: #FFFFFF; padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Advanced</span></td>
+                <td style="padding: 12px 14px; font-size: 13px; font-weight: 600; color: #1E293B;">Frontend Development
+                </td>
+                <td style="padding: 12px; text-align: center;"><span
+                    style="background: var(--brand-100); color: var(--brand-800); border: 0.5px solid var(--brand-300); padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Intermediate</span>
+                </td>
+                <td style="padding: 12px; text-align: center;"><span
+                    style="background: var(--primary); color: #FFFFFF; padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Advanced</span>
+                </td>
+                <td style="padding: 12px; text-align: center;"><span
+                    style="background: var(--primary); color: #FFFFFF; padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Advanced</span>
+                </td>
+                <td style="padding: 12px; text-align: center;"><span
+                    style="background: var(--primary); color: #FFFFFF; padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Advanced</span>
+                </td>
               </tr>
               <tr style="border-bottom: 1px solid var(--slate-100);">
-                <td style="padding: 12px 14px; font-size: 13px; font-weight: 600; color: #1E293B;">Software Engineering Fundamentals</td>
-                <td style="padding: 12px; text-align: center;"><span style="background: var(--brand-50); color: var(--brand-700); border: 0.5px solid var(--brand-200); padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Beginner</span></td>
-                <td style="padding: 12px; text-align: center;"><span style="background: var(--brand-100); color: var(--brand-800); border: 0.5px solid var(--brand-300); padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Intermediate</span></td>
-                <td style="padding: 12px; text-align: center;"><span style="background: var(--primary); color: #FFFFFF; padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Advanced</span></td>
-                <td style="padding: 12px; text-align: center;"><span style="background: var(--brand-800); color: #FFFFFF; padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Expert</span></td>
+                <td style="padding: 12px 14px; font-size: 13px; font-weight: 600; color: #1E293B;">Software Engineering
+                  Fundamentals</td>
+                <td style="padding: 12px; text-align: center;"><span
+                    style="background: var(--brand-50); color: var(--brand-700); border: 0.5px solid var(--brand-200); padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Beginner</span>
+                </td>
+                <td style="padding: 12px; text-align: center;"><span
+                    style="background: var(--brand-100); color: var(--brand-800); border: 0.5px solid var(--brand-300); padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Intermediate</span>
+                </td>
+                <td style="padding: 12px; text-align: center;"><span
+                    style="background: var(--primary); color: #FFFFFF; padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Advanced</span>
+                </td>
+                <td style="padding: 12px; text-align: center;"><span
+                    style="background: var(--brand-800); color: #FFFFFF; padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Expert</span>
+                </td>
               </tr>
               <tr style="border-bottom: 1px solid var(--slate-100);">
-                <td style="padding: 12px 14px; font-size: 13px; font-weight: 600; color: #1E293B;">Backend Development</td>
-                <td style="padding: 12px; text-align: center;"><span style="background: var(--brand-50); color: var(--brand-700); border: 0.5px solid var(--brand-200); padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Beginner</span></td>
-                <td style="padding: 12px; text-align: center;"><span style="background: var(--brand-100); color: var(--brand-800); border: 0.5px solid var(--brand-300); padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Intermediate</span></td>
-                <td style="padding: 12px; text-align: center;"><span style="background: var(--primary); color: #FFFFFF; padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Advanced</span></td>
-                <td style="padding: 12px; text-align: center;"><span style="background: var(--brand-800); color: #FFFFFF; padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Expert</span></td>
+                <td style="padding: 12px 14px; font-size: 13px; font-weight: 600; color: #1E293B;">Backend Development
+                </td>
+                <td style="padding: 12px; text-align: center;"><span
+                    style="background: var(--brand-50); color: var(--brand-700); border: 0.5px solid var(--brand-200); padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Beginner</span>
+                </td>
+                <td style="padding: 12px; text-align: center;"><span
+                    style="background: var(--brand-100); color: var(--brand-800); border: 0.5px solid var(--brand-300); padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Intermediate</span>
+                </td>
+                <td style="padding: 12px; text-align: center;"><span
+                    style="background: var(--primary); color: #FFFFFF; padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Advanced</span>
+                </td>
+                <td style="padding: 12px; text-align: center;"><span
+                    style="background: var(--brand-800); color: #FFFFFF; padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Expert</span>
+                </td>
               </tr>
               <tr style="border-bottom: 1px solid var(--slate-100);">
                 <td style="padding: 12px 14px; font-size: 13px; font-weight: 600; color: #1E293B;">System Design</td>
                 <td style="padding: 12px; text-align: center; color: var(--slate-400); font-weight: 500;">—</td>
-                <td style="padding: 12px; text-align: center;"><span style="background: var(--brand-50); color: var(--brand-700); border: 0.5px solid var(--brand-200); padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Beginner</span></td>
-                <td style="padding: 12px; text-align: center;"><span style="background: var(--brand-100); color: var(--brand-800); border: 0.5px solid var(--brand-300); padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Intermediate</span></td>
-                <td style="padding: 12px; text-align: center;"><span style="background: var(--brand-100); color: var(--brand-800); border: 0.5px solid var(--brand-300); padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Intermediate</span></td>
+                <td style="padding: 12px; text-align: center;"><span
+                    style="background: var(--brand-50); color: var(--brand-700); border: 0.5px solid var(--brand-200); padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Beginner</span>
+                </td>
+                <td style="padding: 12px; text-align: center;"><span
+                    style="background: var(--brand-100); color: var(--brand-800); border: 0.5px solid var(--brand-300); padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Intermediate</span>
+                </td>
+                <td style="padding: 12px; text-align: center;"><span
+                    style="background: var(--brand-100); color: var(--brand-800); border: 0.5px solid var(--brand-300); padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Intermediate</span>
+                </td>
               </tr>
               <tr style="border-bottom: 1px solid var(--slate-100);">
-                <td style="padding: 12px 14px; font-size: 13px; font-weight: 600; color: #1E293B;">Aptitude & Professional Skills</td>
-                <td style="padding: 12px; text-align: center;"><span style="background: var(--brand-100); color: var(--brand-800); border: 0.5px solid var(--brand-300); padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Intermediate</span></td>
-                <td style="padding: 12px; text-align: center;"><span style="background: var(--brand-100); color: var(--brand-800); border: 0.5px solid var(--brand-300); padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Intermediate</span></td>
-                <td style="padding: 12px; text-align: center;"><span style="background: var(--primary); color: #FFFFFF; padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Advanced</span></td>
-                <td style="padding: 12px; text-align: center;"><span style="background: var(--primary); color: #FFFFFF; padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Advanced</span></td>
+                <td style="padding: 12px 14px; font-size: 13px; font-weight: 600; color: #1E293B;">Aptitude &
+                  Professional Skills</td>
+                <td style="padding: 12px; text-align: center;"><span
+                    style="background: var(--brand-100); color: var(--brand-800); border: 0.5px solid var(--brand-300); padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Intermediate</span>
+                </td>
+                <td style="padding: 12px; text-align: center;"><span
+                    style="background: var(--brand-100); color: var(--brand-800); border: 0.5px solid var(--brand-300); padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Intermediate</span>
+                </td>
+                <td style="padding: 12px; text-align: center;"><span
+                    style="background: var(--primary); color: #FFFFFF; padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Advanced</span>
+                </td>
+                <td style="padding: 12px; text-align: center;"><span
+                    style="background: var(--primary); color: #FFFFFF; padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Advanced</span>
+                </td>
               </tr>
               <tr style="border-bottom: none;">
-                <td style="padding: 12px 14px; font-size: 13px; font-weight: 600; color: #1E293B;">Generative AI Engineering</td>
+                <td style="padding: 12px 14px; font-size: 13px; font-weight: 600; color: #1E293B;">Generative AI
+                  Engineering</td>
                 <td style="padding: 12px; text-align: center; color: var(--slate-400); font-weight: 500;">—</td>
-                <td style="padding: 12px; text-align: center;"><span style="background: var(--brand-50); color: var(--brand-700); border: 0.5px solid var(--brand-200); padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Beginner</span></td>
-                <td style="padding: 12px; text-align: center;"><span style="background: var(--brand-100); color: var(--brand-800); border: 0.5px solid var(--brand-300); padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Intermediate</span></td>
-                <td style="padding: 12px; text-align: center;"><span style="background: var(--primary); color: #FFFFFF; padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Advanced</span></td>
+                <td style="padding: 12px; text-align: center;"><span
+                    style="background: var(--brand-50); color: var(--brand-700); border: 0.5px solid var(--brand-200); padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Beginner</span>
+                </td>
+                <td style="padding: 12px; text-align: center;"><span
+                    style="background: var(--brand-100); color: var(--brand-800); border: 0.5px solid var(--brand-300); padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Intermediate</span>
+                </td>
+                <td style="padding: 12px; text-align: center;"><span
+                    style="background: var(--primary); color: #FFFFFF; padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; display: inline-block; width: 85px; text-align: center;">Advanced</span>
+                </td>
               </tr>
             </tbody>
           </table>
@@ -638,26 +830,47 @@
       </div>
 
       <!-- Shared Bottom Cards (Revealed by assessment / Higher includes lower) -->
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin-top: 8px;">
+      <div
+        style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin-top: 8px;">
         <!-- Revealed by assessment Card (Blue/Brand tint) -->
-        <div style="background: var(--brand-50); border: 1px solid var(--brand-200); border-radius: 12px; padding: 16px; display: flex; gap: 10px; align-items: flex-start;">
-          <div style="width: 28px; height: 28px; border-radius: 50%; background: var(--brand-100); border: 1px solid var(--brand-200); display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 2px;">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width: 14px; height: 14px; color: var(--primary);"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"></rect><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><path d="m9 14 2 2 4-4"></path></svg>
+        <div
+          style="background: var(--brand-50); border: 1px solid var(--brand-200); border-radius: 12px; padding: 16px; display: flex; gap: 10px; align-items: flex-start;">
+          <div
+            style="width: 28px; height: 28px; border-radius: 50%; background: var(--brand-100); border: 1px solid var(--brand-200); display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 2px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+              style="width: 14px; height: 14px; color: var(--primary);">
+              <rect width="8" height="4" x="8" y="2" rx="1" ry="1"></rect>
+              <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
+              <path d="m9 14 2 2 4-4"></path>
+            </svg>
           </div>
           <div>
-            <h5 style="margin: 0 0 2px 0; font-size: 13.5px; font-weight: 700; color: var(--brand-900);">Revealed by assessment</h5>
-            <p style="margin: 0; font-size: 12px; color: var(--brand-700); line-height: 1.45;">Your level in each skill area is set after the Job Readiness Assessment.</p>
+            <h5 style="margin: 0 0 2px 0; font-size: 13.5px; font-weight: 700; color: var(--brand-900);">Revealed by
+              assessment</h5>
+            <p style="margin: 0; font-size: 12px; color: var(--brand-700); line-height: 1.45;">Your level in each skill
+              area is set after the Job Readiness Assessment.</p>
           </div>
         </div>
 
         <!-- Higher includes lower Card (Slate/Neutral tint) -->
-        <div style="background: var(--slate-50); border: 1px solid var(--slate-200); border-radius: 12px; padding: 16px; display: flex; gap: 10px; align-items: flex-start;">
-          <div style="width: 28px; height: 28px; border-radius: 50%; background: var(--slate-100); border: 1px solid var(--slate-200); display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 2px;">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width: 14px; height: 14px; color: var(--slate-600);"><path d="m12 3-10 5 10 5 10-5-10-5Z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg>
+        <div
+          style="background: var(--slate-50); border: 1px solid var(--slate-200); border-radius: 12px; padding: 16px; display: flex; gap: 10px; align-items: flex-start;">
+          <div
+            style="width: 28px; height: 28px; border-radius: 50%; background: var(--slate-100); border: 1px solid var(--slate-200); display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 2px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+              style="width: 14px; height: 14px; color: var(--slate-600);">
+              <path d="m12 3-10 5 10 5 10-5-10-5Z"></path>
+              <path d="M2 17l10 5 10-5"></path>
+              <path d="M2 12l10 5 10-5"></path>
+            </svg>
           </div>
           <div>
-            <h5 style="margin: 0 0 2px 0; font-size: 13.5px; font-weight: 700; color: var(--slate-800);">Higher includes lower</h5>
-            <p style="margin: 0; font-size: 12px; color: var(--slate-600); line-height: 1.45;">Reaching a higher level means you've already cleared the ones below it.</p>
+            <h5 style="margin: 0 0 2px 0; font-size: 13.5px; font-weight: 700; color: var(--slate-800);">Higher includes
+              lower</h5>
+            <p style="margin: 0; font-size: 12px; color: var(--slate-600); line-height: 1.45;">Reaching a higher level
+              means you've already cleared the ones below it.</p>
           </div>
         </div>
       </div>
@@ -666,12 +879,16 @@
   </dialog>
 
   <!-- 7. Interactive Product Tour Modal -->
-  <dialog id="product-tour-dialog" class="custom-dialog tour-modal-content" style="border-radius: 16px; border: 1px solid var(--border); background: #FFFFFF; max-width: 580px; width: 90%; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04); overflow: hidden; padding: 0;">
-    <div style="padding: 18px 24px; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center;">
-      <h3 style="margin: 0; font-size: 15px; font-weight: 800; color: #0F172A; display: flex; align-items: center; gap: 8px;">
+  <dialog id="product-tour-dialog" class="custom-dialog tour-modal-content"
+    style="border-radius: 16px; border: 1px solid var(--border); background: #FFFFFF; max-width: 580px; width: 90%; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04); overflow: hidden; padding: 0;">
+    <div
+      style="padding: 18px 24px; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center;">
+      <h3
+        style="margin: 0; font-size: 15px; font-weight: 800; color: #0F172A; display: flex; align-items: center; gap: 8px;">
         <i data-lucide="compass" style="width: 16px; height: 16px; color: var(--primary);"></i> NextWave Platform Guide
       </h3>
-      <button onclick="document.getElementById('product-tour-dialog').close()" style="background: none; border: none; color: #94A3B8; cursor: pointer; padding: 4px; display: flex; align-items: center; justify-content: center; transition: color 0.2s ease;">
+      <button onclick="document.getElementById('product-tour-dialog').close()"
+        style="background: none; border: none; color: #94A3B8; cursor: pointer; padding: 4px; display: flex; align-items: center; justify-content: center; transition: color 0.2s ease;">
         <i data-lucide="x" style="width: 18px; height: 18px;"></i>
       </button>
     </div>
@@ -682,14 +899,17 @@
         <i data-lucide="map" style="width: 28px; height: 28px;"></i>
       </div>
       <h4>1. Select Your Career Path</h4>
-      <p>Select a specialized career path (e.g. SDE, Frontend, Data Analyst) designed by experts to target current corporate hiring benchmarks.</p>
+      <p>Select a specialized career path (e.g. SDE, Frontend, Data Analyst) designed by experts to target current
+        corporate hiring benchmarks.</p>
       <div class="tour-bullets">
         <div class="tour-bullet-item">
-          <i data-lucide="check" style="width: 15px; height: 15px; color: #10B981; margin-top: 2px; flex-shrink: 0;"></i>
+          <i data-lucide="check"
+            style="width: 15px; height: 15px; color: #10B981; margin-top: 2px; flex-shrink: 0;"></i>
           <span>Choose from standard roles that align perfectly with your career placement goals.</span>
         </div>
         <div class="tour-bullet-item">
-          <i data-lucide="check" style="width: 15px; height: 15px; color: #10B981; margin-top: 2px; flex-shrink: 0;"></i>
+          <i data-lucide="check"
+            style="width: 15px; height: 15px; color: #10B981; margin-top: 2px; flex-shrink: 0;"></i>
           <span>Each track structures required languages and frameworks into a clean learning timeline.</span>
         </div>
       </div>
@@ -701,14 +921,17 @@
         <i data-lucide="grid" style="width: 28px; height: 28px;"></i>
       </div>
       <h4>2. Mapped Skill Area Blocks</h4>
-      <p>Courses are organized into focused Skill Areas (e.g. Databases, Programming) to target specific domain skills requested by recruiters.</p>
+      <p>Courses are organized into focused Skill Areas (e.g. Databases, Programming) to target specific domain skills
+        requested by recruiters.</p>
       <div class="tour-bullets">
         <div class="tour-bullet-item">
-          <i data-lucide="check" style="width: 15px; height: 15px; color: #10B981; margin-top: 2px; flex-shrink: 0;"></i>
+          <i data-lucide="check"
+            style="width: 15px; height: 15px; color: #10B981; margin-top: 2px; flex-shrink: 0;"></i>
           <span>Skill Area categories group all relevant concepts and checklists together.</span>
         </div>
         <div class="tour-bullet-item">
-          <i data-lucide="check" style="width: 15px; height: 15px; color: #10B981; margin-top: 2px; flex-shrink: 0;"></i>
+          <i data-lucide="check"
+            style="width: 15px; height: 15px; color: #10B981; margin-top: 2px; flex-shrink: 0;"></i>
           <span>Allows you to systematically clear related subject gaps step-by-step.</span>
         </div>
       </div>
@@ -720,15 +943,19 @@
         <i data-lucide="award" style="width: 28px; height: 28px;"></i>
       </div>
       <h4>3. Verified Skill Area Levels</h4>
-      <p>Your skillset rating for each skill area progresses from Level 1 Verified up to Level 4 Verified based on your assessment performance.</p>
+      <p>Your skillset rating for each skill area progresses from Level 1 Verified up to Level 4 Verified based on your
+        assessment performance.</p>
       <div class="tour-bullets">
         <div class="tour-bullet-item">
-          <i data-lucide="check" style="width: 15px; height: 15px; color: #10B981; margin-top: 2px; flex-shrink: 0;"></i>
+          <i data-lucide="check"
+            style="width: 15px; height: 15px; color: #10B981; margin-top: 2px; flex-shrink: 0;"></i>
           <span>Levels are determined directly by your score results on the role assessment.</span>
         </div>
         <div class="tour-bullet-item">
-          <i data-lucide="check" style="width: 15px; height: 15px; color: #10B981; margin-top: 2px; flex-shrink: 0;"></i>
-          <span><strong>Note:</strong> Verified levels are evaluated and unlocked on your path only AFTER you attempt the assessment.</span>
+          <i data-lucide="check"
+            style="width: 15px; height: 15px; color: #10B981; margin-top: 2px; flex-shrink: 0;"></i>
+          <span><strong>Note:</strong> Verified levels are evaluated and unlocked on your path only AFTER you attempt
+            the assessment.</span>
         </div>
       </div>
     </div>
@@ -739,18 +966,23 @@
         <i data-lucide="rocket" style="width: 28px; height: 28px;"></i>
       </div>
       <h4>4. Verification & Placements</h4>
-      <p>Take assessments to prove your capabilities, unlock verified certifications, and unlock callback-boosted job boards.</p>
+      <p>Take assessments to prove your capabilities, unlock verified certifications, and unlock callback-boosted job
+        boards.</p>
       <div class="tour-bullets">
         <div class="tour-bullet-item">
-          <i data-lucide="check" style="width: 15px; height: 15px; color: #10B981; margin-top: 2px; flex-shrink: 0;"></i>
-          <span><strong>Learn at Your Pace:</strong> Read and practice course topics to gain key developer skills.</span>
+          <i data-lucide="check"
+            style="width: 15px; height: 15px; color: #10B981; margin-top: 2px; flex-shrink: 0;"></i>
+          <span><strong>Learn at Your Pace:</strong> Read and practice course topics to gain key developer
+            skills.</span>
         </div>
         <div class="tour-bullet-item">
-          <i data-lucide="check" style="width: 15px; height: 15px; color: #10B981; margin-top: 2px; flex-shrink: 0;"></i>
+          <i data-lucide="check"
+            style="width: 15px; height: 15px; color: #10B981; margin-top: 2px; flex-shrink: 0;"></i>
           <span><strong>Attempt Assessments:</strong> Verify your skill area level and earn certificates.</span>
         </div>
         <div class="tour-bullet-item">
-          <i data-lucide="check" style="width: 15px; height: 15px; color: #10B981; margin-top: 2px; flex-shrink: 0;"></i>
+          <i data-lucide="check"
+            style="width: 15px; height: 15px; color: #10B981; margin-top: 2px; flex-shrink: 0;"></i>
           <span><strong>Unlock Interviews:</strong> Get premium placement matching with top hiring partners.</span>
         </div>
       </div>
@@ -758,10 +990,12 @@
 
     <!-- Tour Navigation Footer -->
     <div class="tour-footer">
-      <button id="tour-prev-btn" onclick="AppUI.prevTourSlide()" class="btn btn-outline" style="padding: 6px 12px; font-size: 12px; font-weight: 700; opacity: 0; pointer-events: none;">
-        <i data-lucide="arrow-left" style="width: 14px; height: 14px; margin-right: 4px; vertical-align: middle;"></i> Back
+      <button id="tour-prev-btn" onclick="AppUI.prevTourSlide()" class="btn btn-outline"
+        style="padding: 6px 12px; font-size: 12px; font-weight: 700; opacity: 0; pointer-events: none;">
+        <i data-lucide="arrow-left" style="width: 14px; height: 14px; margin-right: 4px; vertical-align: middle;"></i>
+        Back
       </button>
-      
+
       <div class="tour-indicators">
         <span class="tour-dot active" id="tour-dot-1"></span>
         <span class="tour-dot" id="tour-dot-2"></span>
@@ -769,55 +1003,71 @@
         <span class="tour-dot" id="tour-dot-4"></span>
       </div>
 
-      <button id="tour-next-btn" onclick="AppUI.nextTourSlide()" class="btn btn-primary" style="padding: 6px 14px; font-size: 12px; font-weight: 700; display: inline-flex; align-items: center; gap: 4px;">
+      <button id="tour-next-btn" onclick="AppUI.nextTourSlide()" class="btn btn-primary"
+        style="padding: 6px 14px; font-size: 12px; font-weight: 700; display: inline-flex; align-items: center; gap: 4px;">
         Next <i data-lucide="arrow-right" style="width: 14px; height: 14px;"></i>
       </button>
     </div>
   </dialog>
 
   <!-- 8. Skill Area Stats and Importance Modal -->
-  <dialog id="comp-stats-dialog" class="custom-dialog" style="border-radius: 16px; border: 1px solid var(--border); background: #FFFFFF; max-width: 500px; width: 90%; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04); overflow: hidden; padding: 0;">
-    <div style="padding: 18px 24px; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center;">
-      <h3 id="comp-stats-title" style="margin: 0; font-size: 15px; font-weight: 800; color: #0F172A; display: flex; align-items: center; gap: 8px;">
+  <dialog id="comp-stats-dialog" class="custom-dialog"
+    style="border-radius: 16px; border: 1px solid var(--border); background: #FFFFFF; max-width: 500px; width: 90%; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04); overflow: hidden; padding: 0;">
+    <div
+      style="padding: 18px 24px; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center;">
+      <h3 id="comp-stats-title"
+        style="margin: 0; font-size: 15px; font-weight: 800; color: #0F172A; display: flex; align-items: center; gap: 8px;">
         <i data-lucide="bar-chart-3" style="width: 16px; height: 16px; color: #0C3CFF;"></i> Skill Area Importance
       </h3>
-      <button onclick="document.getElementById('comp-stats-dialog').close()" style="background: none; border: none; color: #94A3B8; cursor: pointer; padding: 4px; display: flex; align-items: center; justify-content: center; transition: color 0.2s ease;">
+      <button onclick="document.getElementById('comp-stats-dialog').close()"
+        style="background: none; border: none; color: #94A3B8; cursor: pointer; padding: 4px; display: flex; align-items: center; justify-content: center; transition: color 0.2s ease;">
         <i data-lucide="x" style="width: 18px; height: 18px;"></i>
       </button>
     </div>
-    
+
     <div style="padding: 24px; display: flex; flex-direction: column; gap: 20px;">
-      
+
       <!-- Quick Metric Row -->
-      <div style="display: flex; gap: 12px; background: #E6EEFF; border: 1px solid #C7D5FF; border-radius: 12px; padding: 16px; align-items: flex-start;">
-        <div style="width: 32px; height: 32px; border-radius: 8px; background: #FFFFFF; display: flex; align-items: center; justify-content: center; flex-shrink: 0; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+      <div
+        style="display: flex; gap: 12px; background: #E6EEFF; border: 1px solid #C7D5FF; border-radius: 12px; padding: 16px; align-items: flex-start;">
+        <div
+          style="width: 32px; height: 32px; border-radius: 8px; background: #FFFFFF; display: flex; align-items: center; justify-content: center; flex-shrink: 0; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
           <i data-lucide="trending-up" style="width: 16px; height: 16px; color: #0C3CFF;"></i>
         </div>
         <div style="flex: 1; text-align: left;">
-          <h4 id="comp-stats-metric-value" style="margin: 0; font-size: 24px; font-weight: 800; color: #0C3CFF; line-height: 1.1;">88%</h4>
-          <p id="comp-stats-metric-desc" style="margin: 4px 0 0 0; font-size: 12.5px; color: #475569; line-height: 1.45; font-weight: 500;">of hiring companies require this skill area to pass initial screening.</p>
+          <h4 id="comp-stats-metric-value"
+            style="margin: 0; font-size: 24px; font-weight: 800; color: #0C3CFF; line-height: 1.1;">88%</h4>
+          <p id="comp-stats-metric-desc"
+            style="margin: 4px 0 0 0; font-size: 12.5px; color: #475569; line-height: 1.45; font-weight: 500;">of hiring
+            companies require this skill area to pass initial screening.</p>
         </div>
       </div>
 
       <!-- Recruitment Leverage Card -->
       <div style="display: flex; gap: 12px; align-items: flex-start; text-align: left;">
-        <div style="width: 32px; height: 32px; border-radius: 50%; background: #FAFBFD; border: 1px solid #E2E8F0; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 2px;">
+        <div
+          style="width: 32px; height: 32px; border-radius: 50%; background: #FAFBFD; border: 1px solid #E2E8F0; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 2px;">
           <i data-lucide="users" style="width: 15px; height: 15px; color: #64748B;"></i>
         </div>
         <div>
-          <h5 style="margin: 0 0 4px 0; font-size: 13px; font-weight: 700; color: #0F172A;">Recruitment Selection Rate</h5>
-          <p id="comp-stats-ratio-desc" style="margin: 0; font-size: 12.5px; color: #64748B; line-height: 1.45;">Candidates verified at Advanced level are 4.2x more likely to clear round one coding rounds.</p>
+          <h5 style="margin: 0 0 4px 0; font-size: 13px; font-weight: 700; color: #0F172A;">Recruitment Selection Rate
+          </h5>
+          <p id="comp-stats-ratio-desc" style="margin: 0; font-size: 12.5px; color: #64748B; line-height: 1.45;">
+            Candidates verified at Advanced level are 4.2x more likely to clear round one coding rounds.</p>
         </div>
       </div>
 
       <!-- Educational Guidance Alert -->
-      <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 12px; text-align: left; display: flex; gap: 8px; align-items: center;">
+      <div
+        style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 12px; text-align: left; display: flex; gap: 8px; align-items: center;">
         <i data-lucide="award" style="width: 16px; height: 16px; color: #16A34A; flex-shrink: 0;"></i>
-        <span style="font-size: 11.5px; font-weight: 500; color: #16A34A;">Verify this skill area via the Job Readiness Assessment.</span>
+        <span style="font-size: 11.5px; font-weight: 500; color: #16A34A;">Verify this skill area via the Job Readiness
+          Assessment.</span>
       </div>
 
       <!-- Footer CTA -->
-      <button onclick="document.getElementById('comp-stats-dialog').close()" style="width: 100%; padding: 12px; font-size: 13px; font-weight: 600; background: #0F172A; border: none; color: #FFFFFF; border-radius: 8px; cursor: pointer; transition: background 0.2s;">
+      <button onclick="document.getElementById('comp-stats-dialog').close()"
+        style="width: 100%; padding: 12px; font-size: 13px; font-weight: 600; background: #0F172A; border: none; color: #FFFFFF; border-radius: 8px; cursor: pointer; transition: background 0.2s;">
         Got it, thanks!
       </button>
 
@@ -826,13 +1076,15 @@
 
   <!-- 5. Onboarding Overview Modal -->
   <dialog id="onboarding-dialog" class="custom-dialog onboarding-dialog-redesigned">
-    <button class="dialog-close-btn top-right-close" onclick="AppUI.dismissOnboarding()"><i data-lucide="x"></i></button>
+    <button class="dialog-close-btn top-right-close" onclick="AppUI.dismissOnboarding()"><i
+        data-lucide="x"></i></button>
     <div class="dialog-body onboarding-body">
-      
+
       <!-- Top Title and Subtitle -->
       <div class="onboarding-header">
         <h2>Your career path, <span class="mapped-text">mapped</span> and <span class="ready-text">ready</span>.</h2>
-        <p>Pick a role, follow the path, earn certification, and unlock your future. Everything is structured so you always know exactly what to do next.</p>
+        <p>Pick a role, follow the path, earn certification, and unlock your future. Everything is structured so you
+          always know exactly what to do next.</p>
       </div>
 
       <!-- Steps Grid -->
@@ -865,7 +1117,8 @@
               <span class="step-num">02</span>
               <div class="step-details">
                 <h4>Take Assessments</h4>
-                <p>Attempt evaluations to know exactly where you stand, what you need to work on, and how to improve.</p>
+                <p>Attempt evaluations to know exactly where you stand, what you need to work on, and how to improve.
+                </p>
                 <a href="#" class="step-link">Tap to learn more <i data-lucide="arrow-down"></i></a>
               </div>
             </div>
@@ -908,7 +1161,8 @@
               <span class="step-num">04</span>
               <div class="step-details">
                 <h4>Unlock Premium Opportunities</h4>
-                <p>Get access to exclusive job boards with top-tier packages matched directly to your cleared skillset.</p>
+                <p>Get access to exclusive job boards with top-tier packages matched directly to your cleared skillset.
+                </p>
                 <a href="#" class="step-link">Tap to learn more <i data-lucide="arrow-down"></i></a>
               </div>
             </div>
@@ -926,7 +1180,8 @@
 
       <!-- Action Button -->
       <div class="onboarding-footer">
-        <button class="btn btn-primary btn-get-started" onclick="AppUI.dismissOnboarding()">Get Started <i data-lucide="arrow-right"></i></button>
+        <button class="btn btn-primary btn-get-started" onclick="AppUI.dismissOnboarding()">Get Started <i
+            data-lucide="arrow-right"></i></button>
       </div>
 
     </div>
@@ -935,4 +1190,5 @@
   <!-- Application Logic -->
   <script src="app.js?v=60"></script>
 </body>
+
 </html>

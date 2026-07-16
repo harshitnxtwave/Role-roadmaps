@@ -3414,9 +3414,9 @@ const AppUI = {
         </div>
         
         <div style="display: flex; align-items: center; gap: 16px; flex-shrink: 0;">
-          <span style="font-size: 13px; font-weight: 600; color: #64748B; flex-shrink: 0;">
-            ${completedModCourses} / ${totalModCourses} completed
-          </span>
+          ${(!isStateA && level > 0) ? `
+            <span style="font-size: 11px; font-weight: 700; padding: 3.5px 10px; border-radius: 6px; text-transform: uppercase; ${verificationChipStyle}">${verificationChipText}</span>
+          ` : ''}
           <button style="background: none; border: none; color: #64748B; cursor: pointer; display: flex; align-items: center; justify-content: center; padding: 4px;">
             <i data-lucide="${isExpanded ? 'chevron-up' : 'chevron-down'}" style="width: 18px; height: 18px;"></i>
           </button>
